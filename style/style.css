@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  margin-top: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 5px black double;
+}
+.container .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 5px black solid;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.container .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border: 5px black solid;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: red;
+}
+.container .button1:hover {
+  cursor: pointer;
+}
+.container .button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  border: 5px black solid;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: red;
+}
+.container .button2:hover {
+  cursor: pointer;
+}
+.container .background {
+  background-color: rgb(255, 183, 50);
+}/*# sourceMappingURL=style.css.map */
