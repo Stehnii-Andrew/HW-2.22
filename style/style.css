@@ -10,8 +10,46 @@ body {
   border-radius: 10px;
   padding: 10px;
   border: 5px black double;
+  background-color: rgb(46, 46, 77);
 }
-.container .main {
+.container .head {
+  display: flex;
+  justify-content: space-around;
+}
+.container .head .select1 {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 10px;
+  border: 3px solid black;
+}
+.container .head .select1:hover {
+  cursor: pointer;
+  background-color: rgb(255, 183, 50);
+}
+.container .head .select2 {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  background-color: red;
+  border-radius: 5px;
+  margin: 10px;
+  border: 3px solid black;
+}
+.container .head .select2:hover {
+  cursor: pointer;
+  background-color: rgb(255, 183, 50);
+}
+.container .block {
+  display: flex;
+}
+.container .block .main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,29 +63,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
   height: 100px;
   border: 5px black solid;
   margin-top: 10px;
   border-radius: 10px;
   background-color: red;
+  font-size: 30px;
 }
 .container .button1:hover {
   cursor: pointer;
+  background-color: rgb(255, 183, 50);
 }
 .container .button2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
   height: 100px;
   border: 5px black solid;
   margin-top: 10px;
   border-radius: 10px;
   background-color: red;
+  font-size: 30px;
 }
 .container .button2:hover {
   cursor: pointer;
+  background-color: rgb(255, 183, 50);
 }
 .container .background {
   background-color: rgb(255, 183, 50);
